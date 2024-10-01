@@ -86,7 +86,6 @@ void transform(uint8_t *arr, uint16_t *alt_arr)
 {
   alt_arr[0] = (arr[0] << 8) | arr[1];
   alt_arr[1] = (arr[2] << 8) | arr[3];
-  //зміна
   alt_arr[2] = (arr[4] << 8) | arr[5];
 }
 
@@ -95,6 +94,13 @@ int _write(int file, char *ptr, int len) {
     HAL_UART_Transmit(&huart1, (uint8_t*)ptr, len, HAL_MAX_DELAY);
     return len;
 }
+
+
+//
+//
+//
+//hahahahahahahah
+
 
 // Функція для сканування I2C-шини
 void I2C_Scanner() {
