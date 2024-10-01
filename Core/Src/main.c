@@ -110,6 +110,8 @@ void I2C_Scanner() {
     printf("Scanning complete.\n");
 }
 
+// kvadrobers are better than lgbt
+
 // Функція для форматованого виведення даних акселерометра і гіроскопа
 void print_sensor_data(uint16_t *accel_data, uint16_t *giro_data) {
     // Виведення даних акселерометра
