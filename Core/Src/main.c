@@ -95,13 +95,6 @@ int _write(int file, char *ptr, int len) {
     return len;
 }
 
-
-//
-//
-//
-//hahahahahahahah
-
-
 // Функція для сканування I2C-шини
 void I2C_Scanner() {
     printf("Scanning I2C bus...\n");
